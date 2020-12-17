@@ -19,7 +19,9 @@ wyniki<-extract%>%
     udzial_bardzo_szczesliwych=weighted.mean(szczescie<2, waga_sondazowa),
     udzial_zycie_wspaniale=weighted.mean(zycie<2, waga_sondazowa),
     udzial_zycie_wsp_udane=weighted.mean(zycie<3, waga_sondazowa),
-    udzial_zycie_wsp_ud_dosycdobre=weighted.mean(zycie<4, waga_sondazowa)
+    udzial_zycie_wsp_ud_dosycdobre=weighted.mean(zycie<4, waga_sondazowa), 
+    srednie_szczescie=weighted.mean(szczescie),
+    srednie_zycie=weighted.mean(zycie)
   )
 #View(wyniki)
 
@@ -61,3 +63,34 @@ plot_happy_B<-ggplot(data=wyniki, mapping=aes(x=przedzial_wieku2, group=1))+
 print(plot_happy_B)
 
 ggsave(filename="plot_happy_B.pdf", plot=plot_happy_B+theme(plot.margin=unit(c(3,3,3,3),"cm")), width = 297/1.5, height = 210/1.5, units = "mm", device=cairo_pdf)
+
+#traktując zmienne porządkowe jak ilościowe:
+
+plot_happy_C<-ggplot(data=wyniki, 
+       aes(x=przedzial_wieku2,
+           y=5-srednie_szczescie,
+           group=1))+
+  geom_line(col="dark blue")+
+  geom_point(col="darkblue")+
+  ggthemes::theme_economist()+
+  xlab("przedział wiekowy")+
+  ylab("średnia ocena szczęścia \n(skala opisowa 1-4)")
+
+print(plot_happy_C)
+
+ggsave(filename="plot_happy_C.pdf", plot=plot_happy_C+theme(plot.margin=unit(c(3,3,3,3),"cm")), width = 297/1.5, height = 210/1.5, units = "mm", device=cairo_pdf)
+
+plot_happy_D<-ggplot(data=wyniki, 
+       aes(x=przedzial_wieku2,
+           y=8-srednie_zycie,
+           group=1))+
+  geom_line(col="blue")+
+  geom_point(col="blue")+
+  ggthemes::theme_economist()+
+  xlab("przedział wiekowy")+
+  ylab("średnia ocena dotychczasowego życia \n(skala opisowa 1-7)")
+
+
+print(plot_happy_D)
+
+ggsave(filename="plot_happy_D.pdf", plot=plot_happy_D+theme(plot.margin=unit(c(3,3,3,3),"cm")), width = 297/1.5, height = 210/1.5, units = "mm", device=cairo_pdf)
