@@ -115,10 +115,13 @@ cor(e$husband_BMI, e$wife_BMI)
 # correlation with survey weights
 cor_bmi<-cov.wt(data.frame(e$husband_BMI, e$wife_BMI), wt=e$avg_survey_weight, cor=TRUE)$cor[2,1]
 
+
+jpeg('bmiplot.jpg')
+
 plot(jitter(e$husband_BMI,3), jitter(e$wife_BMI,3), col=rgb(0,0,0,0.2), pch=16, xlab="husband's BMI", ylab="wife's BMI", main=paste("BMI. Correlation =", round(cor_bmi,3)), xlim=c(14,55), ylim=c(14,55))
 abline(0,1,lty=3, col="grey")
 
-
+dev.off()
 
 
 #### INCOME WITHOUT LOGARITHMIC SCALE
