@@ -98,10 +98,12 @@ abline(0,1,lty=3, col="grey")
 
 #### AGE
 
-plot(jitter(e$husband_age,3), jitter(e$wife_age,3), col=rgb(0,0,0,0.2), pch=16, xlab="husband's age (years)", ylab="wife's age (years)", main=paste("Age. Correlation =", round(cor_age,3)), xlim=c(18,100), ylim=c(18,100))
+plot(jitter(e$husband_age,3), jitter(e$wife_age,3), col=rgb(0,0,0,0.2), pch=16, xlab="husband's age (years)", ylab="wife's age (years)", main=paste("AGE. Correlation =", round(cor_age,3)), xlim=c(18,100), ylim=c(18,100))
 abline(0,1,lty=3, col="grey")
 par(old.par)
 
+
+### BMI
 
 
 e$wife_BMI<-e$wife_weight/(e$wife_height^2/10000)
