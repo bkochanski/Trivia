@@ -1,18 +1,32 @@
 #Husband wife correlation
 
-extract<-osoby[,c('numer_gd', 'numer_osoby', 'hc5', 'hc6', 'hc10', 'hp65', 'hp52', 'hp53', 'waga_2015_ind', 'wiek2015')]
+extract<-osoby[,c('numer_gd', 'numer_osoby', 'hc5', 'hc6', 'hc10', 'hp65', 'hp52', 'hp53', 'waga_2015_ind', 'wiek2015', 'hc16')]
 extract$hp65[is.na(extract$hp65)]<-(-1)
+extract$hc16[is.na(extract$hc16)]<-(-1)
+extract$hc16[extract$hc16==99]<-(-1)
+extract$hc16[extract$hc16==-8]<-(-1)
+extract$hc16[extract$hc16==70]<-0 #brak
+extract$hc16[extract$hc16==60 | extract$hc16==51 | extract$hc16==50]<-1 #podstawowe
+extract$hc16[extract$hc16==40 | extract$hc16==30 | extract$hc16==20]<-2 #średnie
+extract$hc16[extract$hc16==10 | extract$hc16==11 | extract$hc16==12]<-3 #wyższe
+table(extract$hc16)
+
+
 extract<-na.omit(extract)
-names(extract)<-c('household_id', 'person_id', 'family_no', 'family_role', 'sex', 'income', 'height', 'weight', 'survey_weight', 'age')
+names(extract)<-c('household_id', 'person_id', 'family_no', 'family_role', 'sex', 'income', 'height', 'weight', 'survey_weight', 'age', 'education')
 extract$income[extract$income==-1]<-NA
+extract$education[extract$education==-1]<-NA
 extract$family_id<-paste(extract$household_id, extract$family_no)
-extract_husband<-extract[extract$family_role==1&extract$sex==1, c('family_id', 'income', 'height', 'weight', 'survey_weight', 'age')]
-names(extract_husband)<-c('family_id', 'husband_income', 'husband_height', 'husband_weight', 'husband_survey_weight', 'husband_age')
-extract_wife<-extract[extract$family_role==2&extract$sex==2, c('family_id', 'income', 'height', 'weight', 'survey_weight', 'age')]
-names(extract_wife)<-c('family_id', 'wife_income', 'wife_height', 'wife_weight', 'wife_survey_weight', 'wife_age')
+extract_husband<-extract[extract$family_role==1&extract$sex==1, c('family_id', 'income', 'height', 'weight', 'survey_weight', 'age', 'education')]
+names(extract_husband)<-c('family_id', 'husband_income', 'husband_height', 'husband_weight', 'husband_survey_weight', 'husband_age', 'husband_education')
+extract_wife<-extract[extract$family_role==2&extract$sex==2, c('family_id', 'income', 'height', 'weight', 'survey_weight', 'age', 'education')]
+names(extract_wife)<-c('family_id', 'wife_income', 'wife_height', 'wife_weight', 'wife_survey_weight', 'wife_age', 'wife_education')
 e<-merge(extract_husband, extract_wife)
 e$avg_survey_weight<-(e$husband_survey_weight+e$wife_survey_weight)/2
 #View(e)
+
+#table(e[,c("husband_education", "wife_education")])
+write.csv2(e, "test.csv", na="")
 
 #plot(log(e$husband_income), log(e$wife_income))
 plot(jitter(e$husband_income,3), jitter(e$wife_income,3), col=rgb(0,0,0,0.2), pch=16, log="xy", xlab="dochód męża", ylab="dochód żony")
