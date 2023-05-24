@@ -46,7 +46,8 @@ ggplot(df, aes(x=size, y=mass)) +
               formula = y ~ x,
               geom = "smooth", 
               se=FALSE, 
-              colour='red') +
+              colour='red',
+              size=.8) +
   scale_y_continuous(trans='log10', breaks=yticks) +
   scale_x_continuous(trans='log10', breaks=xticks) +
   theme_bw() +
@@ -70,7 +71,7 @@ ggplot(df, aes(x=size, y=mass)) +
   #               colour='red') +
   geom_function(fun=function(x){exp(model$coefficients[1])*x^model$coefficients[2]},
                 colour='red') +
-  scale_x_continuous(limits=c(0,90), expand = c(0, 0)) +
+  scale_x_continuous(limits=c(0,90), breaks=sort(c(0:3*25, 60)), expand = c(0, 0)) +
   scale_y_continuous(limits=c(0,100), breaks=sort(c(0:4*25, as.numeric(round(prediction,2)))), expand = c(0, 0)) +
   theme_bw() +
   geom_point(data=df2, 
