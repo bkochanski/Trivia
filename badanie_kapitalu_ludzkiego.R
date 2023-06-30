@@ -94,3 +94,19 @@ max(data2$m9, na.rm=TRUE)
 max(data2$m9d, na.rm=TRUE)
 max(data1$m9, na.rm=TRUE)
 max(data1$m9d, na.rm=TRUE)
+
+
+# Poszukiwanie zmiennych
+table(data2$miejsce)
+table(dane$`miejsce zamieszkania`)
+
+table(data2$wiek, useNA = "ifany")
+table(dane$`przedział wiekowy`)
+table(cut(data2$wiek, c(0,20,40, 60, 69, 70)), useNA = "ifany")
+
+table(data2$m2, useNA = "ifany")
+table(dane$płeć)
+
+table(dane$`Miejsce pracy`)
+
+
