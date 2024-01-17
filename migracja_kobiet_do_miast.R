@@ -85,13 +85,13 @@ migracje%>%
   
   df %>% 
     ggplot(aes(x=gestosc, y=sexratio2534, label=name)) + 
-  #  scale_x_continuous(trans='log10') + 
+    scale_x_continuous(trans='log10') + 
     geom_point(alpha=1, col='red') + 
 #    stat_smooth(method='lm', se=FALSE) +
     xlab("gęstość zaludnienia (liczba ludności przypadająca na km²)") +
     ylab("stosunek liczby mężczyzn do liczby kobiet \nw grupie wiekowej") -> Gtemp
   
 Gtemp
-
+library(plotly)
 ggplotly(Gtemp)
   # https://onlinelibrary.wiley.com/doi/10.1111/padr.12577
