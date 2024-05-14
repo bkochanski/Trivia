@@ -27,16 +27,20 @@ words <- tolower(unlist(stringr::str_split(lyr, "[[:space:][:punct:]]+")))
 words
 pie(table(words))
 
-mainwords <- c("let", "it", "be", "words", "of", "wisdom")
+mainwords <- c("let", "it", "be", "speaking", "words", "of", "wisdom")
 words2<- words
-words2[!(words %in% mainwords)]<-"other"
-words3<-factor(words2, level = c(mainwords, "other"))
+words2[!(words %in% mainwords)]<-"inne słowa"
+words3<-factor(words2, level = c(mainwords, "inne słowa"))
 pie(table(words3), 
     clockwise=TRUE, 
     col= viridis::viridis(length(mainwords)+1), 
 #    main="Lyrical composition\nof Let It Be", 
     main="Występowanie poszczególnych słów\n w Let It Be zespołu The Beatles", 
-    labels=paste(levels(words3),'-', paste0(round(table(words3)/sum(table(words3))*100,1),'%')))
+    radius = 1, cex = .8, 
+    labels=
+  paste(levels(words3),
+        '-', 
+        paste0(format(round(table(words3)/sum(table(words3))*100,1), decimal.mark = ","),'%')))
 
 
 # library(ggplot2)
