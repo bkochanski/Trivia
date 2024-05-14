@@ -34,7 +34,8 @@ words3<-factor(words2, level = c(mainwords, "other"))
 pie(table(words3), 
     clockwise=TRUE, 
     col= viridis::viridis(length(mainwords)+1), 
-    main="Lyrical composition\nof Let It Be", 
+#    main="Lyrical composition\nof Let It Be", 
+    main="Występowanie poszczególnych słów\n w Let It Be zespołu The Beatles", 
     labels=paste(levels(words3),'-', paste0(round(table(words3)/sum(table(words3))*100,1),'%')))
 
 
