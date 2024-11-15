@@ -29,3 +29,15 @@ urodzenia<-urodzenia[-1,]
 
 plot(urodzenia$date, urodzenia$ur, type='l')
 saveRDS(urodzenia, "urodzenia.rds")
+weekdays(urodzenia$date)
+year(urodzenia$date)
+
+library(dplyr)
+urodzenia %>% 
+  group_by(year=year(urodzenia$date)) %>%
+  summarize(liczba_ur=sum(ur), liczba_ur_wt=sum(ur[weekdays(date)=="wtorek"])) %>%
+  mutate(frakcja_wt = liczba_ur_wt/liczba_ur*100) %>%
+  select(year, frakcja_wt) -> wt
+plot(wt)
+summary(lm(wt$frakcja_wt~wt$year))
+write.csv2(wt, "wt.csv")
