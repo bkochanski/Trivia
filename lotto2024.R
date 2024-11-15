@@ -72,6 +72,22 @@ lotto_dane$czwartek<-as.numeric(lotto_dane$dzientyg=="czwartek")
 lotto_dane$ZakladowBez6<-head(c(0,ave(lotto_dane$Zakladow*(lotto_dane$liczba_6==0), 
                                       cumsum(lotto_dane$liczba_6>0), FUN=cumsum)),-1)
 
+for (i in 1:49) {
+  col_name <- paste0("R", i)
+  lotto_dane[[col_name]] <- rowSums(df[, 14:19] == i)
+}
+
+df<-lotto_dane
+boxplot(df$liczba_3/df$Zakladow ~ df$R7, horizontal=TRUE)
+
+boxplot(df$liczba_3/df$Zakladow ~ I(df$R1+df$R11+df$R21), horizontal=TRUE)
+
+boxplot(df$liczba_4/df$Zakladow ~ I(df$R1+df$R11+df$R21), horizontal=TRUE)
+
+
+
 #** lotto_dane obcięte
 min(lotto_dane[lotto_dane$wygrana_3==24,]$data_los)
 lotto_dane_24<-lotto_dane[lotto_dane$data_los>='2011-09-06',]
+
+
