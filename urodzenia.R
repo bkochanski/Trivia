@@ -40,4 +40,5 @@ urodzenia %>%
   select(year, frakcja_wt) -> wt
 plot(wt)
 summary(lm(wt$frakcja_wt~wt$year))
-write.csv2(wt, "wt.csv")
+#write.csv2(wt, "wt.csv")
+#wt<-read.csv2("wt.csv")
