@@ -1,0 +1,973 @@
+{
+    "country": {
+        "candidates": [
+            {
+                "key": "TRZASKOWSKI",
+                "support": 31.2
+            },
+            {
+                "key": "NAWROCKI",
+                "support": 29.7
+            },
+            {
+                "key": "MENTZEN",
+                "support": 14.5
+            },
+            {
+                "key": "BRAUN",
+                "support": 6.3
+            },
+            {
+                "key": "HOŁOWNIA",
+                "support": 4.9
+            },
+            {
+                "key": "ZANDBERG",
+                "support": 4.8
+            },
+            {
+                "key": "BIEJAT",
+                "support": 4.1
+            },
+            {
+                "key": "SENYSZYN",
+                "support": 1.4
+            },
+            {
+                "key": "STANOWSKI",
+                "support": 1.3
+            },
+            {
+                "key": "JAKUBIAK",
+                "support": 0.8
+            },
+            {
+                "key": "BARTOSZEWICZ",
+                "support": 0.5
+            },
+            {
+                "key": "MACIAK",
+                "support": 0.4
+            },
+            {
+                "key": "WOCH",
+                "support": 0.1
+            }
+        ],
+        "frequency": 66.8
+    },
+    "voivodeships": {
+        "dolnoslaskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 34
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 25.9
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 13.9
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 5.1
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.9
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.7
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 2.1
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.7
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.9
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.6
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 65.5
+        },
+        "kujawsko-pomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 35.4
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 25.3
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 5.6
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 5.5
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.1
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.2
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.6
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.2
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.7
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.6
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.4
+                }
+            ],
+            "frequency": 64.6
+        },
+        "lubelskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 40
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 21.7
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 15.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 10.3
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 3.7
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 2.6
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 2.6
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.9
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 0.9
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 0.7
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0
+                }
+            ],
+            "frequency": 66.2
+        },
+        "lubuskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 41.9
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 24.8
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 12.4
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 5.1
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 4.4
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 4.2
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 2.7
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.5
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.4
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.9
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.2
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.2
+                }
+            ],
+            "frequency": 62.3
+        },
+        "lodzkie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 30.5
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 29.2
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 15.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 6.5
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 5.1
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 4.4
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.3
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 1.2
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.2
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.2
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.4
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.2
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 68.2
+        },
+        "malopolskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 35.8
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 22.8
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 16.5
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 6.3
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.8
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 5
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 3.4
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.4
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 1.1
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 0.9
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.2
+                }
+            ],
+            "frequency": 70.1
+        },
+        "mazowieckie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 32.7
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 28.1
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 12.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 6.2
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.8
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.8
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.2
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 2.1
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.3
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.9
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.6
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.5
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 71.3
+        },
+        "opolskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 35
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 26.2
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14.9
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 7
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.9
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 4.1
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 3.5
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 2
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.8
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 0.6
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 59.1
+        },
+        "podkarpackie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 41.7
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 18.4
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 17.6
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 9.3
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.4
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 2.8
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 2.6
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 0.9
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.8
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 0.7
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0
+                }
+            ],
+            "frequency": 65.9
+        },
+        "podlaskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 38.2
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 26.8
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 15.4
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 5.8
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.7
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 3.4
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 1.9
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.6
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 0.9
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.6
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.2
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 64.4
+        },
+        "pomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 39.9
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 20.6
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 13.5
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 6.4
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.4
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 5.2
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 4.8
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.6
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.5
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.4
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 68.2
+        },
+        "slaskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 32.9
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 27.2
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14.5
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 5.9
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 5.5
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.5
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.1
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.7
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.3
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.5
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 65.9
+        },
+        "swietokrzyskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 41.7
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 22.3
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 8
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.5
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 2.9
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 2.1
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.4
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.7
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.4
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.2
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 64.5
+        },
+        "warminsko-mazurskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 38.1
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 27.2
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14.8
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 4.9
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.6
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 3.5
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 3.3
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.1
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.7
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.2
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.2
+                }
+            ],
+            "frequency": 63
+        },
+        "wielkopolskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 35.3
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 24.3
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 14.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 6.1
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 5.8
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.5
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.3
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.2
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.6
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.6
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.3
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.3
+                }
+            ],
+            "frequency": 67.3
+        },
+        "zachodniopomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 40.3
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 24.4
+                },
+                {
+                    "key": "MENTZEN",
+                    "support": 11.4
+                },
+                {
+                    "key": "ZANDBERG",
+                    "support": 5.2
+                },
+                {
+                    "key": "HOŁOWNIA",
+                    "support": 4.9
+                },
+                {
+                    "key": "BIEJAT",
+                    "support": 4.7
+                },
+                {
+                    "key": "BRAUN",
+                    "support": 4.5
+                },
+                {
+                    "key": "STANOWSKI",
+                    "support": 1.8
+                },
+                {
+                    "key": "SENYSZYN",
+                    "support": 1.2
+                },
+                {
+                    "key": "JAKUBIAK",
+                    "support": 0.6
+                },
+                {
+                    "key": "BARTOSZEWICZ",
+                    "support": 0.5
+                },
+                {
+                    "key": "MACIAK",
+                    "support": 0.4
+                },
+                {
+                    "key": "WOCH",
+                    "support": 0.1
+                }
+            ],
+            "frequency": 63.4
+        }
+    }
+}

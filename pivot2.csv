@@ -1,0 +1,71 @@
+"","Group1","Group2","TRZASKOWSKI","NAWROCKI"
+"1","GRUPA_col","Dyrektor / kierownik / specjalista",18,9.9
+"2","GRUPA_col","Emeryt / rencista",23.3,23.9
+"3","GRUPA_col","Inny",9.5,11
+"4","GRUPA_col","Osoba bezrobotna",1.4,2.4
+"5","GRUPA_col","Pracownik administracji lub uslug",19.9,17.8
+"6","GRUPA_col","Robotnik",5.8,12.5
+"7","GRUPA_col","Rolnik",1.7,6.8
+"8","GRUPA_col","Uczen / student",7.1,5.4
+"9","GRUPA_col","Wlasciciel / wspolwlasciciel firmy",13.3,10.3
+"10","MIEJSCOWOSC_col","Miasto 201-500 tys.",10,5.1
+"11","MIEJSCOWOSC_col","Miasto 51-200 tys.",17,12.3
+"12","MIEJSCOWOSC_col","Miasto do 50 tys.",26.6,24.2
+"13","MIEJSCOWOSC_col","Miasto pow. 500 tys.",17.3,8.2
+"14","MIEJSCOWOSC_col","Wies",29.1,50.2
+"15","PLEC_col","Kobiety",58.2,49.8
+"16","PLEC_col","Mezczyzni",41.8,50.2
+"17","PREZYDENT_2020_col","Andrzej Duda",5.7,76.4
+"18","PREZYDENT_2020_col","Nie glosowalem",9.7,11.6
+"19","PREZYDENT_2020_col","Nie pamietam",7.5,8.9
+"20","PREZYDENT_2020_col","Rafal Trzaskowski",77.1,3.1
+"21","PREZYDENT_I_tura_col","Bartoszewicz Artur",0.2,0.4
+"22","PREZYDENT_I_tura_col","Biejat Magdalena",7.2,0.9
+"23","PREZYDENT_I_tura_col","Braun Grzegorz",0.8,9.6
+"24","PREZYDENT_I_tura_col","Holownia Szymon",7.2,1.2
+"25","PREZYDENT_I_tura_col","Jakubiak Marek",0.2,1.4
+"26","PREZYDENT_I_tura_col","Maciak Maciej",0.1,0.3
+"27","PREZYDENT_I_tura_col","Mentzen Slawomir",3.8,24.7
+"28","PREZYDENT_I_tura_col","Nawrocki Karol",0.4,51.1
+"29","PREZYDENT_I_tura_col","Nie glosowalem",6.5,5.9
+"30","PREZYDENT_I_tura_col","Nie pamietam",0.5,0.7
+"31","PREZYDENT_I_tura_col","Senyszyn Joanna",1.8,0.4
+"32","PREZYDENT_I_tura_col","Stanowski Krzysztof",0.9,1
+"33","PREZYDENT_I_tura_col","Trzaskowski Rafal",61.7,0.7
+"34","PREZYDENT_I_tura_col","Woch Marek",0.1,0.1
+"35","PREZYDENT_I_tura_col","Zandberg Adrian",8.6,1.6
+"36","SEJM_2023_col","BS",0.6,1.5
+"37","SEJM_2023_col","Inne partie i ugrupowania",0.5,0.6
+"38","SEJM_2023_col","Koalicja Obywatelska",62.1,2.5
+"39","SEJM_2023_col","Konfederacja",2.3,18.7
+"40","SEJM_2023_col","Nie glosowalem",5.6,7.2
+"41","SEJM_2023_col","Nie pamietam",8.2,9.2
+"42","SEJM_2023_col","Nowa Lewica",8.2,1
+"43","SEJM_2023_col","PJJ",0.3,0.8
+"44","SEJM_2023_col","PiS",1.3,55.7
+"45","SEJM_2023_col","Trzecia Droga",10.9,2.8
+"46","WIEK_col","18 - 29 lat",15.9,17.4
+"47","WIEK_col","30 - 39 lat",17.1,19.2
+"48","WIEK_col","40 - 49 lat",21.9,19.4
+"49","WIEK_col","50 - 59 lat",17.1,16
+"50","WIEK_col","60 i wiecej lat",28,28
+"51","WOJEWODZTWA_col","Dolnoslaskie",8.9,6.3
+"52","WOJEWODZTWA_col","Kujawsko - pomorskie",5.9,4.6
+"53","WOJEWODZTWA_col","Lodzkie",6.1,6.6
+"54","WOJEWODZTWA_col","Lubelskie",3.8,7.5
+"55","WOJEWODZTWA_col","Lubuskie",2.9,1.9
+"56","WOJEWODZTWA_col","Malopolskie",8,10.8
+"57","WOJEWODZTWA_col","Mazowieckie",15.3,14.6
+"58","WOJEWODZTWA_col","Opolskie",2.6,2
+"59","WOJEWODZTWA_col","Podkarpackie",3.3,7.9
+"60","WOJEWODZTWA_col","Podlaskie",2.4,3.6
+"61","WOJEWODZTWA_col","Pomorskie",7.5,4.7
+"62","WOJEWODZTWA_col","Slaskie",11.3,10.5
+"63","WOJEWODZTWA_col","Swietokrzyskie",2.8,4.7
+"64","WOJEWODZTWA_col","Warminsko - mazurskie",3.6,2.9
+"65","WOJEWODZTWA_col","Wielkopolskie",10.1,8
+"66","WOJEWODZTWA_col","Zachodniopomorskie",5.5,3.4
+"67","WYKSZTALCENIE_col","Licencjat i wyzsze",50.9,31.2
+"68","WYKSZTALCENIE_col","Podstawowe",2.2,5.7
+"69","WYKSZTALCENIE_col","Srednie i pomaturalne",37.4,41.9
+"70","WYKSZTALCENIE_col","Zasadnicze zawodowe",9.5,21.2

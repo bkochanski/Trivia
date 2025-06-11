@@ -1,0 +1,225 @@
+{
+    "country": {
+        "candidates": [
+            {
+                "key": "NAWROCKI",
+                "support": 51
+            },
+            {
+                "key": "TRZASKOWSKI",
+                "support": 49
+            }
+        ],
+        "frequency": 71.7
+    },
+    "voivodeships": {
+        "dolnoslaskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 57.6
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 42.4
+                }
+            ],
+            "frequency": 72.1
+        },
+        "kujawsko-pomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 55.3
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 44.7
+                }
+            ],
+            "frequency": 68
+        },
+        "lubelskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 67.7
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 32.3
+                }
+            ],
+            "frequency": 70.2
+        },
+        "lubuskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 59.8
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 40.2
+                }
+            ],
+            "frequency": 66.3
+        },
+        "lodzkie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 52.8
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 47.2
+                }
+            ],
+            "frequency": 73.2
+        },
+        "malopolskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 58.2
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 41.8
+                }
+            ],
+            "frequency": 73.9
+        },
+        "mazowieckie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 50.1
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 49.9
+                }
+            ],
+            "frequency": 77.2
+        },
+        "opolskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 55.3
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 44.7
+                }
+            ],
+            "frequency": 62.4
+        },
+        "podkarpackie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 71.4
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 28.6
+                }
+            ],
+            "frequency": 69.9
+        },
+        "podlaskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 61.2
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 38.8
+                }
+            ],
+            "frequency": 69.1
+        },
+        "pomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 60.6
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 39.4
+                }
+            ],
+            "frequency": 73.5
+        },
+        "slaskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 51
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 49
+                }
+            ],
+            "frequency": 70.7
+        },
+        "swietokrzyskie": {
+            "candidates": [
+                {
+                    "key": "NAWROCKI",
+                    "support": 63.9
+                },
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 36.1
+                }
+            ],
+            "frequency": 69.3
+        },
+        "warminsko-mazurskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 53.8
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 46.2
+                }
+            ],
+            "frequency": 67
+        },
+        "wielkopolskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 54.9
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 45.1
+                }
+            ],
+            "frequency": 71.9
+        },
+        "zachodniopomorskie": {
+            "candidates": [
+                {
+                    "key": "TRZASKOWSKI",
+                    "support": 60.7
+                },
+                {
+                    "key": "NAWROCKI",
+                    "support": 39.3
+                }
+            ],
+            "frequency": 70.9
+        }
+    }
+}

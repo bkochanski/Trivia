@@ -1,0 +1,55 @@
+---
+title: "Karta scoringowa"
+output: html_document
+date: "2025-06-05"
+---
+
+
+```{r, echo=FALSE, message=FALSE}
+library(knitr)
+library(kableExtra)
+
+data <- data.frame(
+  Cecha = c(
+    rep("Maksymalny procent wykorzystania limitu na karcie kredytowej w ostatnich trzech miesiącach", 3),
+    rep("Liczba miesięcy od ostatniego opóźnienia w spłacie kredytu powyżej 30 dni", 4),
+    rep("Liczba miesięcy od otwarcia pierwszego kredytu", 4),
+    rep("Liczba zapytań kredytowych w ostatnich 12 miesiącach", 4)
+  ),
+  `Wariant cechy` = c("[0%–10%)", "[10%–60%)", "60% i więcej", 
+                      "Brak", "1–3", "4–11", "12 i więcej",
+                      "Poniżej 12", "12–23", "24–47", "48 i dłużej",
+                      "0", "1", "2–3", "4 i więcej"),
+  Punktacja = c(63, 48, 15, 75, 5, 15, 45, 15, 36, 52, 63, 48, 32, 18, 7)
+)
+
+# kbl(data, col.names = c("Cecha", "Wariant cechy", "Punktacja"), escape = FALSE) %>%
+#   kable_styling(full_width = FALSE) %>%
+#   column_spec(1, width = "25em") %>%
+#   collapse_rows(columns = 1, valign = "top")
+
+kbl(data, col.names = c("Cecha", "Wariant cechy", "Punktacja"), escape = FALSE) %>%
+  kable_styling(full_width = FALSE, stripe_color = NA) %>%   # usuwa pasy/szarość
+  column_spec(1, width = "25em") %>%
+  collapse_rows(columns = 1, valign = "top", row_group_label_position = 'identity')
+```
+
+## Test 2 
+
+| **Cecha** | **Wariant cechy** | **Punktacja** |
+|----------|-------------------|---------------|
+| **Maksymalny procent wykorzystania limitu na karcie kredytowej w ostatnich trzech miesiącach** | [0%–10%) | 63 |
+|  | [10%–60%) | 48 |
+|  | 60% i więcej | 15 |
+| **Liczba miesięcy od ostatniego opóźnienia w spłacie kredytu powyżej 30 dni** | Brak | 75 |
+|  | 1–3 | 5 |
+|  | 4–11 | 15 |
+|  | 12 i więcej | 45 |
+| **Liczba miesięcy od otwarcia pierwszego kredytu** | Poniżej 12 | 15 |
+|  | 12–23 | 36 |
+|  | 24–47 | 52 |
+|  | 48 i dłużej | 63 |
+| **Liczba zapytań kredytowych w ostatnich 12 miesiącach** | 0 | 48 |
+|  | 1 | 32 |
+|  | 2–3 | 18 |
+|  | 4 i więcej | 7 |

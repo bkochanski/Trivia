@@ -1,0 +1,604 @@
+{
+    "POPARCIE": {
+        "POPARCIE": {
+            "NAWROCKI": 51,
+            "TRZASKOWSKI": 49
+        }
+    },
+    "SEJM_2023_row": {
+        "BS": {
+            "NAWROCKI": 73.1,
+            "TRZASKOWSKI": 26.9
+        },
+        "Trzecia Droga": {
+            "NAWROCKI": 20.9,
+            "TRZASKOWSKI": 79.1
+        },
+        "Nowa Lewica": {
+            "NAWROCKI": 10.8,
+            "TRZASKOWSKI": 89.2
+        },
+        "PiS": {
+            "NAWROCKI": 97.9,
+            "TRZASKOWSKI": 2.1
+        },
+        "Konfederacja": {
+            "NAWROCKI": 89.3,
+            "TRZASKOWSKI": 10.7
+        },
+        "Koalicja Obywatelska": {
+            "NAWROCKI": 4.1,
+            "TRZASKOWSKI": 95.9
+        },
+        "PJJ": {
+            "NAWROCKI": 75.9,
+            "TRZASKOWSKI": 24.1
+        },
+        "Inne partie i ugrupowania": {
+            "NAWROCKI": 55.6,
+            "TRZASKOWSKI": 44.4
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 56.9,
+            "TRZASKOWSKI": 43.1
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 54.1,
+            "TRZASKOWSKI": 45.9
+        }
+    },
+    "PREZYDENT_2020_row": {
+        "Andrzej Duda": {
+            "NAWROCKI": 93.3,
+            "TRZASKOWSKI": 6.7
+        },
+        "Rafal Trzaskowski": {
+            "NAWROCKI": 4,
+            "TRZASKOWSKI": 96
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 55.5,
+            "TRZASKOWSKI": 44.5
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 55,
+            "TRZASKOWSKI": 45
+        }
+    },
+    "WIEK_row": {
+        "18 - 29 lat": {
+            "NAWROCKI": 53.2,
+            "TRZASKOWSKI": 46.8
+        },
+        "30 - 39 lat": {
+            "NAWROCKI": 54,
+            "TRZASKOWSKI": 46
+        },
+        "40 - 49 lat": {
+            "NAWROCKI": 47.9,
+            "TRZASKOWSKI": 52.1
+        },
+        "50 - 59 lat": {
+            "NAWROCKI": 49.4,
+            "TRZASKOWSKI": 50.6
+        },
+        "60 i wiecej lat": {
+            "NAWROCKI": 51,
+            "TRZASKOWSKI": 49
+        }
+    },
+    "PLEC_row": {
+        "Mezczyzni": {
+            "NAWROCKI": 55.5,
+            "TRZASKOWSKI": 44.5
+        },
+        "Kobiety": {
+            "NAWROCKI": 47.2,
+            "TRZASKOWSKI": 52.8
+        }
+    },
+    "WYKSZTALCENIE_row": {
+        "Podstawowe": {
+            "NAWROCKI": 73,
+            "TRZASKOWSKI": 27
+        },
+        "Zasadnicze zawodowe": {
+            "NAWROCKI": 69.8,
+            "TRZASKOWSKI": 30.2
+        },
+        "Srednie i pomaturalne": {
+            "NAWROCKI": 53.9,
+            "TRZASKOWSKI": 46.1
+        },
+        "Licencjat i wyzsze": {
+            "NAWROCKI": 39,
+            "TRZASKOWSKI": 61
+        }
+    },
+    "GRUPA_row": {
+        "Wlasciciel / wspolwlasciciel firmy": {
+            "NAWROCKI": 44.6,
+            "TRZASKOWSKI": 55.4
+        },
+        "Dyrektor / kierownik / specjalista": {
+            "NAWROCKI": 36.3,
+            "TRZASKOWSKI": 63.7
+        },
+        "Pracownik administracji lub uslug": {
+            "NAWROCKI": 48.3,
+            "TRZASKOWSKI": 51.7
+        },
+        "Rolnik": {
+            "NAWROCKI": 80.1,
+            "TRZASKOWSKI": 19.9
+        },
+        "Robotnik": {
+            "NAWROCKI": 69.3,
+            "TRZASKOWSKI": 30.7
+        },
+        "Uczen / student": {
+            "NAWROCKI": 44.3,
+            "TRZASKOWSKI": 55.7
+        },
+        "Osoba bezrobotna": {
+            "NAWROCKI": 64.3,
+            "TRZASKOWSKI": 35.7
+        },
+        "Emeryt / rencista": {
+            "NAWROCKI": 51.6,
+            "TRZASKOWSKI": 48.4
+        },
+        "Inny": {
+            "NAWROCKI": 54.8,
+            "TRZASKOWSKI": 45.2
+        }
+    },
+    "MIEJSCOWOSC_row": {
+        "Wies": {
+            "NAWROCKI": 64.2,
+            "TRZASKOWSKI": 35.8
+        },
+        "Miasto do 50 tys.": {
+            "NAWROCKI": 48.7,
+            "TRZASKOWSKI": 51.3
+        },
+        "Miasto 51-200 tys.": {
+            "NAWROCKI": 42.9,
+            "TRZASKOWSKI": 57.1
+        },
+        "Miasto 201-500 tys.": {
+            "NAWROCKI": 34.7,
+            "TRZASKOWSKI": 65.3
+        },
+        "Miasto pow. 500 tys.": {
+            "NAWROCKI": 33.2,
+            "TRZASKOWSKI": 66.8
+        }
+    },
+    "WOJEWODZTWA_row": {
+        "Dolnoslaskie": {
+            "NAWROCKI": 42.4,
+            "TRZASKOWSKI": 57.6
+        },
+        "Kujawsko - pomorskie": {
+            "NAWROCKI": 44.7,
+            "TRZASKOWSKI": 55.3
+        },
+        "Lubelskie": {
+            "NAWROCKI": 67.7,
+            "TRZASKOWSKI": 32.3
+        },
+        "Lubuskie": {
+            "NAWROCKI": 40.2,
+            "TRZASKOWSKI": 59.8
+        },
+        "Lodzkie": {
+            "NAWROCKI": 52.8,
+            "TRZASKOWSKI": 47.2
+        },
+        "Malopolskie": {
+            "NAWROCKI": 58.2,
+            "TRZASKOWSKI": 41.8
+        },
+        "Mazowieckie": {
+            "NAWROCKI": 49.9,
+            "TRZASKOWSKI": 50.1
+        },
+        "Opolskie": {
+            "NAWROCKI": 44.7,
+            "TRZASKOWSKI": 55.3
+        },
+        "Podkarpackie": {
+            "NAWROCKI": 71.4,
+            "TRZASKOWSKI": 28.6
+        },
+        "Podlaskie": {
+            "NAWROCKI": 61.2,
+            "TRZASKOWSKI": 38.8
+        },
+        "Pomorskie": {
+            "NAWROCKI": 39.4,
+            "TRZASKOWSKI": 60.6
+        },
+        "Slaskie": {
+            "NAWROCKI": 49,
+            "TRZASKOWSKI": 51
+        },
+        "Swietokrzyskie": {
+            "NAWROCKI": 63.9,
+            "TRZASKOWSKI": 36.1
+        },
+        "Warminsko - mazurskie": {
+            "NAWROCKI": 46.2,
+            "TRZASKOWSKI": 53.8
+        },
+        "Wielkopolskie": {
+            "NAWROCKI": 45.1,
+            "TRZASKOWSKI": 54.9
+        },
+        "Zachodniopomorskie": {
+            "NAWROCKI": 39.3,
+            "TRZASKOWSKI": 60.7
+        }
+    },
+    "SEJM_2023_col": {
+        "BS": {
+            "NAWROCKI": 1.5,
+            "TRZASKOWSKI": 0.6
+        },
+        "Trzecia Droga": {
+            "NAWROCKI": 2.8,
+            "TRZASKOWSKI": 10.9
+        },
+        "Nowa Lewica": {
+            "NAWROCKI": 1,
+            "TRZASKOWSKI": 8.2
+        },
+        "PiS": {
+            "NAWROCKI": 55.7,
+            "TRZASKOWSKI": 1.3
+        },
+        "Konfederacja": {
+            "NAWROCKI": 18.7,
+            "TRZASKOWSKI": 2.3
+        },
+        "Koalicja Obywatelska": {
+            "NAWROCKI": 2.5,
+            "TRZASKOWSKI": 62.1
+        },
+        "PJJ": {
+            "NAWROCKI": 0.8,
+            "TRZASKOWSKI": 0.3
+        },
+        "Inne partie i ugrupowania": {
+            "NAWROCKI": 0.6,
+            "TRZASKOWSKI": 0.5
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 7.2,
+            "TRZASKOWSKI": 5.6
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 9.2,
+            "TRZASKOWSKI": 8.2
+        }
+    },
+    "PREZYDENT_2020_col": {
+        "Andrzej Duda": {
+            "NAWROCKI": 76.4,
+            "TRZASKOWSKI": 5.7
+        },
+        "Rafal Trzaskowski": {
+            "NAWROCKI": 3.1,
+            "TRZASKOWSKI": 77.1
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 11.6,
+            "TRZASKOWSKI": 9.7
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 8.9,
+            "TRZASKOWSKI": 7.5
+        }
+    },
+    "WIEK_col": {
+        "18 - 29 lat": {
+            "NAWROCKI": 17.4,
+            "TRZASKOWSKI": 15.9
+        },
+        "30 - 39 lat": {
+            "NAWROCKI": 19.2,
+            "TRZASKOWSKI": 17.1
+        },
+        "40 - 49 lat": {
+            "NAWROCKI": 19.4,
+            "TRZASKOWSKI": 21.9
+        },
+        "50 - 59 lat": {
+            "NAWROCKI": 16,
+            "TRZASKOWSKI": 17.1
+        },
+        "60 i wiecej lat": {
+            "NAWROCKI": 28,
+            "TRZASKOWSKI": 28
+        }
+    },
+    "PLEC_col": {
+        "Mezczyzni": {
+            "NAWROCKI": 50.2,
+            "TRZASKOWSKI": 41.8
+        },
+        "Kobiety": {
+            "NAWROCKI": 49.8,
+            "TRZASKOWSKI": 58.2
+        }
+    },
+    "WYKSZTALCENIE_col": {
+        "Podstawowe": {
+            "NAWROCKI": 5.7,
+            "TRZASKOWSKI": 2.2
+        },
+        "Zasadnicze zawodowe": {
+            "NAWROCKI": 21.2,
+            "TRZASKOWSKI": 9.5
+        },
+        "Srednie i pomaturalne": {
+            "NAWROCKI": 41.9,
+            "TRZASKOWSKI": 37.4
+        },
+        "Licencjat i wyzsze": {
+            "NAWROCKI": 31.2,
+            "TRZASKOWSKI": 50.9
+        }
+    },
+    "GRUPA_col": {
+        "Wlasciciel / wspolwlasciciel firmy": {
+            "NAWROCKI": 10.3,
+            "TRZASKOWSKI": 13.3
+        },
+        "Dyrektor / kierownik / specjalista": {
+            "NAWROCKI": 9.9,
+            "TRZASKOWSKI": 18
+        },
+        "Pracownik administracji lub uslug": {
+            "NAWROCKI": 17.8,
+            "TRZASKOWSKI": 19.9
+        },
+        "Rolnik": {
+            "NAWROCKI": 6.8,
+            "TRZASKOWSKI": 1.7
+        },
+        "Robotnik": {
+            "NAWROCKI": 12.5,
+            "TRZASKOWSKI": 5.8
+        },
+        "Uczen / student": {
+            "NAWROCKI": 5.4,
+            "TRZASKOWSKI": 7.1
+        },
+        "Osoba bezrobotna": {
+            "NAWROCKI": 2.4,
+            "TRZASKOWSKI": 1.4
+        },
+        "Emeryt / rencista": {
+            "NAWROCKI": 23.9,
+            "TRZASKOWSKI": 23.3
+        },
+        "Inny": {
+            "NAWROCKI": 11,
+            "TRZASKOWSKI": 9.5
+        }
+    },
+    "MIEJSCOWOSC_col": {
+        "Wies": {
+            "NAWROCKI": 50.2,
+            "TRZASKOWSKI": 29.1
+        },
+        "Miasto do 50 tys.": {
+            "NAWROCKI": 24.2,
+            "TRZASKOWSKI": 26.6
+        },
+        "Miasto 51-200 tys.": {
+            "NAWROCKI": 12.3,
+            "TRZASKOWSKI": 17
+        },
+        "Miasto 201-500 tys.": {
+            "NAWROCKI": 5.1,
+            "TRZASKOWSKI": 10
+        },
+        "Miasto pow. 500 tys.": {
+            "NAWROCKI": 8.2,
+            "TRZASKOWSKI": 17.3
+        }
+    },
+    "WOJEWODZTWA_col": {
+        "Dolnoslaskie": {
+            "NAWROCKI": 6.3,
+            "TRZASKOWSKI": 8.9
+        },
+        "Kujawsko - pomorskie": {
+            "NAWROCKI": 4.6,
+            "TRZASKOWSKI": 5.9
+        },
+        "Lubelskie": {
+            "NAWROCKI": 7.5,
+            "TRZASKOWSKI": 3.8
+        },
+        "Lubuskie": {
+            "NAWROCKI": 1.9,
+            "TRZASKOWSKI": 2.9
+        },
+        "Lodzkie": {
+            "NAWROCKI": 6.6,
+            "TRZASKOWSKI": 6.1
+        },
+        "Malopolskie": {
+            "NAWROCKI": 10.8,
+            "TRZASKOWSKI": 8
+        },
+        "Mazowieckie": {
+            "NAWROCKI": 14.6,
+            "TRZASKOWSKI": 15.3
+        },
+        "Opolskie": {
+            "NAWROCKI": 2,
+            "TRZASKOWSKI": 2.6
+        },
+        "Podkarpackie": {
+            "NAWROCKI": 7.9,
+            "TRZASKOWSKI": 3.3
+        },
+        "Podlaskie": {
+            "NAWROCKI": 3.6,
+            "TRZASKOWSKI": 2.4
+        },
+        "Pomorskie": {
+            "NAWROCKI": 4.7,
+            "TRZASKOWSKI": 7.5
+        },
+        "Slaskie": {
+            "NAWROCKI": 10.5,
+            "TRZASKOWSKI": 11.3
+        },
+        "Swietokrzyskie": {
+            "NAWROCKI": 4.7,
+            "TRZASKOWSKI": 2.8
+        },
+        "Warminsko - mazurskie": {
+            "NAWROCKI": 2.9,
+            "TRZASKOWSKI": 3.6
+        },
+        "Wielkopolskie": {
+            "NAWROCKI": 8,
+            "TRZASKOWSKI": 10.1
+        },
+        "Zachodniopomorskie": {
+            "NAWROCKI": 3.4,
+            "TRZASKOWSKI": 5.5
+        }
+    },
+    "PREZYDENT_I_tura_row": {
+        "Bartoszewicz Artur": {
+            "NAWROCKI": 69.6,
+            "TRZASKOWSKI": 30.4
+        },
+        "Biejat Magdalena": {
+            "NAWROCKI": 11.7,
+            "TRZASKOWSKI": 88.3
+        },
+        "Braun Grzegorz": {
+            "NAWROCKI": 92.6,
+            "TRZASKOWSKI": 7.4
+        },
+        "Holownia Szymon": {
+            "NAWROCKI": 14.6,
+            "TRZASKOWSKI": 85.4
+        },
+        "Jakubiak Marek": {
+            "NAWROCKI": 89.5,
+            "TRZASKOWSKI": 10.5
+        },
+        "Maciak Maciej": {
+            "NAWROCKI": 70.7,
+            "TRZASKOWSKI": 29.3
+        },
+        "Mentzen Slawomir": {
+            "NAWROCKI": 87.2,
+            "TRZASKOWSKI": 12.8
+        },
+        "Nawrocki Karol": {
+            "NAWROCKI": 99.3,
+            "TRZASKOWSKI": 0.7
+        },
+        "Senyszyn Joanna": {
+            "NAWROCKI": 19.3,
+            "TRZASKOWSKI": 80.7
+        },
+        "Stanowski Krzysztof": {
+            "NAWROCKI": 52.1,
+            "TRZASKOWSKI": 47.9
+        },
+        "Trzaskowski Rafal": {
+            "NAWROCKI": 1.2,
+            "TRZASKOWSKI": 98.8
+        },
+        "Woch Marek": {
+            "NAWROCKI": 53.8,
+            "TRZASKOWSKI": 46.2
+        },
+        "Zandberg Adrian": {
+            "NAWROCKI": 16.5,
+            "TRZASKOWSKI": 83.5
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 48.6,
+            "TRZASKOWSKI": 51.4
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 57.2,
+            "TRZASKOWSKI": 42.8
+        }
+    },
+    "PREZYDENT_I_tura_col": {
+        "Bartoszewicz Artur": {
+            "NAWROCKI": 0.4,
+            "TRZASKOWSKI": 0.2
+        },
+        "Biejat Magdalena": {
+            "NAWROCKI": 0.9,
+            "TRZASKOWSKI": 7.2
+        },
+        "Braun Grzegorz": {
+            "NAWROCKI": 9.6,
+            "TRZASKOWSKI": 0.8
+        },
+        "Holownia Szymon": {
+            "NAWROCKI": 1.2,
+            "TRZASKOWSKI": 7.2
+        },
+        "Jakubiak Marek": {
+            "NAWROCKI": 1.4,
+            "TRZASKOWSKI": 0.2
+        },
+        "Maciak Maciej": {
+            "NAWROCKI": 0.3,
+            "TRZASKOWSKI": 0.1
+        },
+        "Mentzen Slawomir": {
+            "NAWROCKI": 24.7,
+            "TRZASKOWSKI": 3.8
+        },
+        "Nawrocki Karol": {
+            "NAWROCKI": 51.1,
+            "TRZASKOWSKI": 0.4
+        },
+        "Senyszyn Joanna": {
+            "NAWROCKI": 0.4,
+            "TRZASKOWSKI": 1.8
+        },
+        "Stanowski Krzysztof": {
+            "NAWROCKI": 1,
+            "TRZASKOWSKI": 0.9
+        },
+        "Trzaskowski Rafal": {
+            "NAWROCKI": 0.7,
+            "TRZASKOWSKI": 61.7
+        },
+        "Woch Marek": {
+            "NAWROCKI": 0.1,
+            "TRZASKOWSKI": 0.1
+        },
+        "Zandberg Adrian": {
+            "NAWROCKI": 1.6,
+            "TRZASKOWSKI": 8.6
+        },
+        "Nie glosowalem": {
+            "NAWROCKI": 5.9,
+            "TRZASKOWSKI": 6.5
+        },
+        "Nie pamietam": {
+            "NAWROCKI": 0.7,
+            "TRZASKOWSKI": 0.5
+        }
+    }
+}
